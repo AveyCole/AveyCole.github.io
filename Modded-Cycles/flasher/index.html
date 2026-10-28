@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Supermodel — redirect</title>
+<link rel="canonical" href="https://aveycole.github.io/Supermodel/flasher/">
+<script>
+(function () {
+  var path = location.pathname;
+  var legacy = "/Modded-Cycles";
+  var target = "/Supermodel/flasher/";
+  if (path === legacy || path.indexOf(legacy + "/") === 0) {
+    target = "/Supermodel" + path.slice(legacy.length);
+    if (target === "/Supermodel") target += "/";
+  }
+  location.replace("https://aveycole.github.io" + target + location.search + location.hash);
+}());
+</script>
+<h1>Supermodel</h1>
+<p>The website has moved. <a href="https://aveycole.github.io/Supermodel/flasher/">Open the Supermodel flasher</a>.</p>
+<p lang="fr">Le site a déménagé. <a href="https://aveycole.github.io/Supermodel/flasher/">Ouvrir le flasheur Supermodel</a>.</p>
+</html>
